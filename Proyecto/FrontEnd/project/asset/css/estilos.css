@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+h2, h3 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+.d-flex {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table td, .table th {
+    text-align: center;
+}
+
+.btn-primary, .btn-secondary {
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.btn-sm {
+    margin-right: 5px;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Image Styles */
+.side-image {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content-wrapper {
+    overflow: auto; /* To ensure content flows properly around the image */
+}
+.side-image {
+    width: 80px; /* Ajusta el tamaño de la imagen a lo que prefieras */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
